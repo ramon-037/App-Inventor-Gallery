@@ -47,7 +47,8 @@ qx.Mixin.define("aiagallery.dbif.MDbifCommon",
   {
     _applyWhoAmI : function(value, old)
     {
-      aiagallery.dbif.MDbifCommon.__whoami = value;
+
+	aiagallery.dbif.MDbifCommon.getWhomAmI = value;
     }
   },
 
